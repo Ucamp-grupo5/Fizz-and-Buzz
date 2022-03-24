@@ -15,7 +15,7 @@ for (let i = 2; i <= numSle.length; i++ ) {
 }
 for (let i = 4; i < numSle.length; i++) {
   if (numSle[i] == 'fizz') {
-    numSle.fill('fizz-buzz', i, i+1);
+    numSle.fill('fizzbuzz', i, i+1);
     i++
     i++
     i++
